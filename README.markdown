@@ -13,6 +13,14 @@ The base image includes:
 - [Git](https://git-scm.com)
 - [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
+Building Locally
+----------------
+
+```sh
+docker build -t jviottidc/windows-servercore-base-devel:2019 -m 2GB .
+docker push jviottidc/windows-servercore-base-devel
+```
+
 License
 -------
 
