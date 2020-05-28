@@ -37,7 +37,7 @@ RUN setx PATH "C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw\bin;%PATH
 
 RUN choco install --yes --no-progress --params '/NoUpdate' msys2
 RUN setx PATH "C:\tools\msys64\usr\bin;%PATH%"
-RUN pacman --sync --upgrades --refresh && pacman --sync --needed --noconfirm \
+RUN pacman --sync --sysupgrade --refresh && pacman --sync --needed --noconfirm \
   base-devel
 
 #################################################
