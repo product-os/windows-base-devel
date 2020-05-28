@@ -1,8 +1,11 @@
 Windows Server Core Base Devel
 ==============================
 
-A Windows Server Core generic Docker base image for building & testing. It
-includes:
+A Windows [Server
+Core](https://docs.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core)
+generic Docker base image for building & testing.
+
+The base image includes:
 
 - [MinGW](http://mingw.org)
 - [MSYS](http://www.mingw.org/wiki/msys)
