@@ -60,4 +60,4 @@ RUN choco install --yes --no-progress windowsdriverkit10
 # Base Dependencies
 #################################################
 
-RUN choco install --yes --no-progress git
+RUN choco install --yes --no-progress git jq
