@@ -1,6 +1,7 @@
-# The Windows Server 2019 multi-arch base image.
-# See https://hub.docker.com/_/microsoft-windows-servercore
-FROM mcr.microsoft.com/windows/servercore:ltsc2019
+# The Windows 10 base image, compatible with Windows Server 2019
+# We can't use Server Core as we need full GUI capabilities.
+# See https://hub.docker.com/_/microsoft-windows
+FROM mcr.microsoft.com/windows:1809-amd64
 
 #################################################
 # Chocolatey

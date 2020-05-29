@@ -17,8 +17,8 @@ Building Locally
 ----------------
 
 ```sh
-docker build -t jviottidc/windows-servercore-base-devel:2019 -m 2GB .
-docker push jviottidc/windows-servercore-base-devel:2019
+docker build -t jviottidc/windows-base-devel:2019 -m 2GB .
+docker push jviottidc/windows-base-devel:2019
 ```
 
 License
