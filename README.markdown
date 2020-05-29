@@ -1,9 +1,7 @@
-Windows Server Core Base Devel
-==============================
+Windows Base Devel
+==================
 
-A Windows [Server
-Core](https://docs.microsoft.com/en-us/windows-server/administration/server-core/what-is-server-core)
-generic Docker base image for building & testing.
+A Windows 10 generic Docker base image for building & testing.
 
 The base image includes:
 
