@@ -10,6 +10,7 @@ The base image includes:
 - [Chocolatey](https://chocolatey.org)
 - [Git](https://git-scm.com)
 - [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+- [WDK](https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk)
 
 Building Locally
 ----------------
