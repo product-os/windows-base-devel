@@ -1,7 +1,7 @@
 # The Windows 10 base image, compatible with Windows Server 2019
 # We can't use Server Core as we need full GUI capabilities.
 # See https://hub.docker.com/_/microsoft-windows
-FROM mcr.microsoft.com/windows:1809-amd64
+FROM mcr.microsoft.com/windows:1909-amd64@sha256:7d382748d2fd49547cc3545a399baba8ad0746165fff3acaccaf2598667eec2b
 
 #################################################
 # Chocolatey
